@@ -46,13 +46,15 @@ code {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-.navbar-nav > li > .btn{
+.navbar-nav > li > .navbar-btn{
   border-radius: 180px;
   margin-right: 1em;
 }
-.navbar-nav > li > .btn-custom{
+.navbar-nav > li > .navbar-btn .btn-custom, .btn-custom{
+    border-radius: 180px;
   background-color: #fff;
   border-color: #2C0550;
+  color: #320453;
 }
 .navbar-default .navbar-nav > li > a{
   font-size: 16px;
@@ -149,6 +151,21 @@ h3.icon-header{
 .banner .btn-danger{
   display:inline-block; width:30%; margin-right:5%;vertical-align: top;
 }
+.form-sign-in .form-control{
+  height: 44px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.form-sign-in{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.panel-sign-in{
+  padding-bottom: 2em;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.3);
+}
+.panel-sign-in a{color: #320453;text-decoration: underline;margin-top: 2em;}
 @media (max-width: 768px){
   .navbar-nav > li > .btn{
   margin-right: 0;

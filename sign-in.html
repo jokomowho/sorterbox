@@ -23,23 +23,6 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
-    <style type="text/css">
-      input::-webkit-input-placeholder {
-        color: #fff !important;
-        }
-         
-        input:-moz-placeholder { /* Firefox 18- */
-        color: #fff !important;  
-        }
-         
-        input::-moz-placeholder {  /* Firefox 19+ */
-        color: #fff !important;  
-        }
-         
-        input:-ms-input-placeholder {  
-        color: #fff !important;  
-        }
-    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -48,7 +31,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body style="background:#F5F5F5;">
 
     <!-- Fixed navbar -->
       <nav class="navigation-top navbar navbar-default navbar-fixed-top">
@@ -60,68 +43,39 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" style="margin-top:-1em;"></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" style="margin-top:-1em;"></a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">About Us</a></li>
               <li><a href="#about">Whats a beta launch?</a></li>
               <li><a href="#contact">Contact Us</a></li>
-              <li><p class=" navbar-btn"><a href="sign-in.html"class="btn btn-custom">Sign In</a></p></li>
+              <li><p class=" navbar-btn"><a href="#"class="btn btn-custom">Sign In</a></p></li>
               <li><button class="btn btn-success navbar-btn">Sign Up</button></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-      <div class="container-fluid banner ">
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6 text-center">
-          <h1 class="h1-banner">Introducing Sorterbox!</h1>
-          <h4 class="h4-banner">See how you can recruit better and faster while getting the best talent</h4>
-          <form class="form">
-            <div class="form-group" style="width:100%;">
-              <input class="form-control"placeholder="Enter Email Address" type="text">
-              <button class="btn btn-danger">Get Free Beta</button>
-            </div>
-          </form>
-          <h5 class="h5-banner">Hurry NOW! Get access to free beta, limited slots available by invitation only.</h5>
-        </div>
-      </div>
-    </div>
-    <div style="background-image:url('assets/img/curve.png');width:100%; height:6px; background-position: center center;"></div>
 
     <!-- Begin page content -->
-    <div class="container" style="padding-top:0;">
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <div style="background-image:url('assets/img/line-chart.png'); background-repeat:no-repeat; width:100%; height:120px; background-position: center center;"></div>
-          <h3 class="icon-header">BETTER</h3>
-          <hr class="icon-hr">
-          <ul class="icon-nav">
-            <li>Cloud-based</li>
-            <li>Automation</li>
-            <li>Candidate Sourcing Metrics</li>
-          </ul>
-        </div>
-        <div class="col-md-4 text-center">
-          <div style="background-image:url('assets/img/clock.png'); background-repeat:no-repeat; width:100%; height:120px; background-position: center center;"></div>
-          <h3 class="icon-header">FASTER</h3>
-          <hr class="icon-hr">
-          <ul class="icon-nav">
-            <li>HR Certified API'S</li>
-            <li>Resume Database</li>
-            <li>Quicker Hiring Time</li>
-          </ul>
-        </div>
-        <div class="col-md-4 text-center">
-          <div style="background-image:url('assets/img/people.png'); background-repeat:no-repeat; width:100%; height:120px; background-position: center center;"></div>
-          <h3 class="icon-header">TOGETHER</h3>
-          <hr class="icon-hr">
-          <ul class="icon-nav">
-            <li>Hiring Team Metrics</li>
-            <li>Human Friendly</li>
-            <li>Easy Implementation</li>
-          </ul>
+    <div class="row" style="margin-top:14em;">
+      <div class="col-md-offset-4 col-md-4">
+        <div class="panel panel-default panel-sign-in">
+          <div class="panel-body">
+            <a href="index.html"><div style="background-image: url('assets/img/logo.png'); background-position: center center; width:100%; height:61px;background-repeat:no-repeat;margin-top:1em;"></div></a>
+            <form class="form-sign-in">
+              <div class="form-group">
+                <input type="username" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-custom pull-right">Sign In </button>
+                <a href="#" >Password Help?</a>
+              </div>
+            </form>
+          </div>  
         </div>
       </div>
     </div>
