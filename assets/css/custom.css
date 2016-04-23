@@ -1,0 +1,159 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #2C0550;
+  color: #fff;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+  /*font-family: font-family: 'Roboto', sans-serif;*/
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.h4-banner{
+  font-weight: 300;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.navbar-nav > li > .btn{
+  border-radius: 180px;
+  margin-right: 1em;
+}
+.navbar-nav > li > .btn-custom{
+  background-color: #fff;
+  border-color: #2C0550;
+}
+.navbar-default .navbar-nav > li > a{
+  font-size: 16px;
+}
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus{
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  border-color: #2C034F;
+}
+.banner{
+  background-color:#2C0550; height:380px;
+  padding-top:8em;color:#fff;
+}
+.banner .form-control{
+  background-color: #947EA4;
+  height: 39px;
+  border-radius: 1px;
+}
+.banner .btn{
+  height: 39px;
+}
+.h5-banner{
+  margin-top: 2em;
+}
+.icon-nav{
+  list-style: none;
+  padding-left: 0;
+  color: #2C034F;
+}
+.icon-nav li{
+  color: #2C034F;
+}
+h3.icon-header{
+  color: #2C034F;
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 20px;
+}
+.icon-hr{
+  color: #2C034F;
+  width: 60%;
+  border-color: #2C034F;
+}
+@media (max-width: 992px){
+  .navbar-brand img{
+    max-width: 180px;
+  }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-nav > li > a{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .navbar-nav > li > .navbar-btn{
+      margin-top: 0;
+      margin-left: 1em;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+     .collapse.in{
+      display:block !important;
+  }
+}
+@media (max-width: 768px){
+  .navbar-nav > li > .btn{
+  margin-right: 0;
+  margin-left: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+  .banner{
+    padding-top: 6em;
+  }
+  .h1-banner{
+    font-size: 30px;
+  }
+}
