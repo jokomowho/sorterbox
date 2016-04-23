@@ -67,7 +67,7 @@ code {
   border-color: #2C034F;
 }
 .banner{
-  background-color:#2C0550; height:380px;
+  background-color:#320453; height:380px;
   padding-top:8em;color:#fff;
 }
 .banner .form-control{
@@ -144,10 +144,10 @@ h3.icon-header{
   }
 }
 .banner .form-control{
-  display:inline-block; width:58%; margin-left:5%;
+  display:inline-block; width:58%; margin-left:5%;vertical-align: top;
 }
 .banner .btn-danger{
-  display:inline-block; width:30%; margin-right:5%;
+  display:inline-block; width:30%; margin-right:5%;vertical-align: top;
 }
 @media (max-width: 768px){
   .navbar-nav > li > .btn{
