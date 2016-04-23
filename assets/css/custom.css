@@ -143,6 +143,12 @@ h3.icon-header{
       display:block !important;
   }
 }
+.banner .form-control{
+  display:inline-block; width:58%; margin-left:5%;
+}
+.banner .btn-danger{
+  display:inline-block; width:30%; margin-right:5%;
+}
 @media (max-width: 768px){
   .navbar-nav > li > .btn{
   margin-right: 0;
@@ -156,4 +162,12 @@ h3.icon-header{
   .h1-banner{
     font-size: 30px;
   }
+}
+@media (max-width: 480px){
+  .banner .form-control{
+  display:inline-block; width:48%; margin-left:5%;
+}
+.banner .btn-danger{
+  display:inline-block; width:40%; margin-right:5%;
+}
 }
