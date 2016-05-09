@@ -134,7 +134,9 @@ h3.icon-header{
   box-shadow: 1px 2px 3px rgba(0,0,0,.3);
 }
 form.form-sign-in div.checkbox{
-  margin-top: 2em;
+  padding-top: .5em;
+  padding-bottom: 1em;
+  color: #E84B7D;
 }
 
 /* Sign Up */
@@ -163,7 +165,8 @@ border-radius: 0;
 
 /* Contact Us Lightbox */
 .modal-header{
-  background-color: #E84B7D;
+  background-color: #320453;
+  color: #fff;
 }
 .modal-content{
   background-color: ;
